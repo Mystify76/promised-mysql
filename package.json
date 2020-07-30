@@ -1,6 +1,6 @@
 {
   "name": "promised-mysql",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Promise wrapper for callback functions in mysqljs/mysql 2.18.1",
   "main": "index.js",
   "scripts": {
@@ -25,14 +25,14 @@
   "build": {
     "major": "1",
     "minor": "0",
-    "revision": "1",
-    "build": "0001",
+    "revision": "2",
+    "build": "0002",
     "year": "2020",
     "month": "07",
     "day": "30",
     "hour": "10",
-    "minute": "52",
-    "second": "30",
-    "date": "1596117150396"
+    "minute": "53",
+    "second": "08",
+    "date": "1596117188352"
   }
 }
