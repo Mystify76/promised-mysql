@@ -1,10 +1,11 @@
 {
   "name": "promised-mysql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promise wrapper for callback functions in mysqljs/mysql 2.18.1",
   "main": "index.js",
   "scripts": {
-    "start": "npm run test"
+    "start": "npm run test",
+    "deploy": "node deploy.js"
   },
   "keywords": [
     "promise",
@@ -14,5 +15,24 @@
   "license": "MIT",
   "dependencies": {
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@mystify/buildmanagement": "^1.0.10",
+    "lodash": "^4.17.19",
+    "prompt-promise": "^1.0.3",
+    "simple-git": "^2.15.0"
+  },
+  "build": {
+    "major": "1",
+    "minor": "0",
+    "revision": "1",
+    "build": "0001",
+    "year": "2020",
+    "month": "07",
+    "day": "30",
+    "hour": "10",
+    "minute": "52",
+    "second": "30",
+    "date": "1596117150396"
   }
 }
